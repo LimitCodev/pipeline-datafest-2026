@@ -1,0 +1,138 @@
+{
+ "experimento": "base",
+ "seeds": [
+  42,
+  43,
+  44,
+  45,
+  46
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "n_estimators": 300,
+  "learning_rate": 0.05,
+  "num_leaves": 31,
+  "subsample": 0.8,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.8,
+  "n_jobs": 15,
+  "verbose": -1
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2478,
+    "nuevos": 0.3202,
+    "historial": 0.238
+   },
+   "202608": {
+    "global": 0.2562,
+    "nuevos": 0.2352,
+    "historial": 0.2569
+   },
+   "202609": {
+    "global": 0.2372,
+    "nuevos": 0.2628,
+    "historial": 0.2295
+   },
+   "202610": {
+    "global": 0.2614,
+    "nuevos": 0.2921,
+    "historial": 0.2503
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.2522,
+    "nuevos": 0.2715,
+    "historial": 0.2484
+   },
+   "202608": {
+    "global": 0.2523,
+    "nuevos": 0.2673,
+    "historial": 0.2432
+   },
+   "202609": {
+    "global": 0.2286,
+    "nuevos": 0.2231,
+    "historial": 0.2271
+   },
+   "202610": {
+    "global": 0.2544,
+    "nuevos": 0.2889,
+    "historial": 0.2419
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2498,
+    "nuevos": 0.2965,
+    "historial": 0.2427
+   },
+   "202608": {
+    "global": 0.2454,
+    "nuevos": 0.2556,
+    "historial": 0.2388
+   },
+   "202609": {
+    "global": 0.243,
+    "nuevos": 0.2549,
+    "historial": 0.2375
+   },
+   "202610": {
+    "global": 0.2583,
+    "nuevos": 0.2831,
+    "historial": 0.2486
+   }
+  },
+  "45": {
+   "202607": {
+    "global": 0.2456,
+    "nuevos": 0.3276,
+    "historial": 0.2343
+   },
+   "202608": {
+    "global": 0.2512,
+    "nuevos": 0.2574,
+    "historial": 0.2451
+   },
+   "202609": {
+    "global": 0.2275,
+    "nuevos": 0.2407,
+    "historial": 0.2223
+   },
+   "202610": {
+    "global": 0.2494,
+    "nuevos": 0.2883,
+    "historial": 0.2359
+   }
+  },
+  "46": {
+   "202607": {
+    "global": 0.2525,
+    "nuevos": 0.3081,
+    "historial": 0.2444
+   },
+   "202608": {
+    "global": 0.2444,
+    "nuevos": 0.2657,
+    "historial": 0.2341
+   },
+   "202609": {
+    "global": 0.2292,
+    "nuevos": 0.229,
+    "historial": 0.2265
+   },
+   "202610": {
+    "global": 0.2648,
+    "nuevos": 0.3009,
+    "historial": 0.2516
+   }
+  }
+ }
+}
