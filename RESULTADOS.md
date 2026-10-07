@@ -2,7 +2,7 @@
 
 **Gini de validación: 0.2636** (media de jul–oct 2026).
 **Gini en noviembre, mes reservado: 0.2479.**
-Archivo de entrega: `submissions/sub_reglas_sin_ene_reg.csv` (fuera de git).
+Archivo de entrega: `submissions/entrega_final.csv`. No está en el repositorio porque contiene predicciones por cliente.
 
 | Versión | Gini validación (jul–oct) | Gini noviembre (reservado) |
 |---|---|---|
@@ -52,7 +52,13 @@ Mejora sobre la línea base: **+0.016 en validación y +0.022 en noviembre.**
 
 **Conclusión:** cinco familias de modelos y dos herramientas de AutoML se quedan alrededor de 0.26. Ese parece ser el techo de la información que traen los datos.
 
-En los datos, clientes con el mismo perfil se reparten entre los que convierten y los que no. Por ejemplo, en el grupo más propenso solo convierte el 38 %. El detalle de cada prueba está en `experimentos.md`.
+En los datos, clientes con el mismo perfil se reparten entre los que convierten y los que no. Por ejemplo, en el grupo más propenso solo convierte el 38 %. El detalle de cada prueba está en `experimentos.md`. Las métricas de cada librería están en `resultados/`:
+
+- `registro.csv`: una fila por prueba, con su Gini y su veredicto.
+- `flaml/`: configuraciones encontradas por FLAML.
+- `autogluon/`: tabla de modelos de AutoGluon por mes.
+
+En `resultados/` solo hay métricas agregadas, ningún dato de clientes.
 
 ## Formato de la entrega (verificado)
 
@@ -62,12 +68,12 @@ La entrega sigue `DATASET_DESCRIPTION.md` y `sample_submission.csv`:
 - 9 900 filas, en el mismo orden que `test.csv`.
 - Cada `id_cliente` aparece una sola vez y no hay valores vacíos.
 - `prediccion` es una probabilidad entre 0.025 y 0.445, con punto decimal.
-- El archivo es ASCII, sin BOM ni saltos de línea `\r`, y con cabecera.
+- El archivo es ASCII, sin BOM, con cabecera y con saltos de línea CRLF, igual que `sample_submission.csv`.
 
 Para comprobarlo:
 
 ```bash
-python -m src.validar_entrega submissions/sub_reglas_sin_ene_reg.csv
+python -m src.validar_entrega submissions/entrega_final.csv
 ```
 
 ## Cómo reproducirlo
@@ -78,8 +84,8 @@ Los datos del concurso no están en el repositorio. Copiar `train.csv`, `test.cs
 python -m venv .venv && .venv/bin/pip install -r requirements.txt
 .venv/bin/python -m src.run_baseline --variante reglas_sin_ene_reg --ref baseline_ref.json
 .venv/bin/python -m src.make_submission --variante reglas_sin_ene_reg \
-    --seeds 42 43 44 45 46 --out submissions/sub_reglas_sin_ene_reg.csv
-.venv/bin/python -m src.validar_entrega submissions/sub_reglas_sin_ene_reg.csv
+    --seeds 42 43 44 45 46 --out submissions/entrega_final.csv
+.venv/bin/python -m src.validar_entrega submissions/entrega_final.csv
 ```
 
 ## Advertencia honesta

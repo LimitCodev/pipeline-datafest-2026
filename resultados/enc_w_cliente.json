@@ -1,0 +1,85 @@
+{
+ "experimento": "enc_w_cliente",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "peso 1/(n filas del cliente en train): corrige supervivientes"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2498,
+    "nuevos": 0.3135,
+    "historial": 0.2505
+   },
+   "202608": {
+    "global": 0.236,
+    "nuevos": 0.255,
+    "historial": 0.2405
+   },
+   "202609": {
+    "global": 0.2071,
+    "nuevos": 0.2214,
+    "historial": 0.2065
+   },
+   "202610": {
+    "global": 0.2225,
+    "nuevos": 0.3019,
+    "historial": 0.2358
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.252,
+    "nuevos": 0.3114,
+    "historial": 0.2531
+   },
+   "202608": {
+    "global": 0.2358,
+    "nuevos": 0.2484,
+    "historial": 0.24
+   },
+   "202609": {
+    "global": 0.2073,
+    "nuevos": 0.2203,
+    "historial": 0.2074
+   },
+   "202610": {
+    "global": 0.2224,
+    "nuevos": 0.2966,
+    "historial": 0.2357
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2503,
+    "nuevos": 0.3122,
+    "historial": 0.251
+   },
+   "202608": {
+    "global": 0.2358,
+    "nuevos": 0.2508,
+    "historial": 0.2405
+   },
+   "202609": {
+    "global": 0.2089,
+    "nuevos": 0.2188,
+    "historial": 0.2089
+   },
+   "202610": {
+    "global": 0.224,
+    "nuevos": 0.2989,
+    "historial": 0.2384
+   }
+  }
+ }
+}

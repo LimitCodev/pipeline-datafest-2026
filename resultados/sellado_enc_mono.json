@@ -1,0 +1,37 @@
+{
+ "experimento": "enc_mono",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "monotone numero_productos +, dias_ultima_transaccion -"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2345,
+    "nuevos": 0.188,
+    "historial": 0.2361
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2346,
+    "nuevos": 0.1866,
+    "historial": 0.2363
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.2348,
+    "nuevos": 0.1885,
+    "historial": 0.2364
+   }
+  }
+ }
+}

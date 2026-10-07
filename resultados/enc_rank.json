@@ -1,0 +1,85 @@
+{
+ "experimento": "enc_rank",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "LGBMRanker rank_xendcg agrupado por mes"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2509,
+    "nuevos": 0.3414,
+    "historial": 0.2373
+   },
+   "202608": {
+    "global": 0.2404,
+    "nuevos": 0.251,
+    "historial": 0.2309
+   },
+   "202609": {
+    "global": 0.2426,
+    "nuevos": 0.2056,
+    "historial": 0.2454
+   },
+   "202610": {
+    "global": 0.2533,
+    "nuevos": 0.2765,
+    "historial": 0.2445
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.2517,
+    "nuevos": 0.3424,
+    "historial": 0.2379
+   },
+   "202608": {
+    "global": 0.2401,
+    "nuevos": 0.2539,
+    "historial": 0.2297
+   },
+   "202609": {
+    "global": 0.2427,
+    "nuevos": 0.2034,
+    "historial": 0.2458
+   },
+   "202610": {
+    "global": 0.2537,
+    "nuevos": 0.2774,
+    "historial": 0.2448
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2512,
+    "nuevos": 0.3418,
+    "historial": 0.2375
+   },
+   "202608": {
+    "global": 0.2399,
+    "nuevos": 0.2521,
+    "historial": 0.2298
+   },
+   "202609": {
+    "global": 0.2431,
+    "nuevos": 0.2037,
+    "historial": 0.246
+   },
+   "202610": {
+    "global": 0.2529,
+    "nuevos": 0.277,
+    "historial": 0.244
+   }
+  }
+ }
+}

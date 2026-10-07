@@ -1,0 +1,37 @@
+{
+ "experimento": "lgb_limpio_reg",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "variante limpio_reg de src/variantes.py"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2361,
+    "nuevos": 0.1987,
+    "historial": 0.2369
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2366,
+    "nuevos": 0.2044,
+    "historial": 0.2368
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.2356,
+    "nuevos": 0.1934,
+    "historial": 0.2366
+   }
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "experimento": "enc_mono",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "monotone numero_productos +, dias_ultima_transaccion -"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2636,
+    "nuevos": 0.3248,
+    "historial": 0.2553
+   },
+   "202608": {
+    "global": 0.2612,
+    "nuevos": 0.2588,
+    "historial": 0.2576
+   },
+   "202609": {
+    "global": 0.2498,
+    "nuevos": 0.224,
+    "historial": 0.2521
+   },
+   "202610": {
+    "global": 0.2674,
+    "nuevos": 0.2939,
+    "historial": 0.2571
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.2645,
+    "nuevos": 0.3228,
+    "historial": 0.2565
+   },
+   "202608": {
+    "global": 0.2631,
+    "nuevos": 0.2607,
+    "historial": 0.2591
+   },
+   "202609": {
+    "global": 0.2502,
+    "nuevos": 0.2264,
+    "historial": 0.252
+   },
+   "202610": {
+    "global": 0.2682,
+    "nuevos": 0.2955,
+    "historial": 0.2577
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2636,
+    "nuevos": 0.3252,
+    "historial": 0.2552
+   },
+   "202608": {
+    "global": 0.2629,
+    "nuevos": 0.2576,
+    "historial": 0.2598
+   },
+   "202609": {
+    "global": 0.2502,
+    "nuevos": 0.2198,
+    "historial": 0.2532
+   },
+   "202610": {
+    "global": 0.2686,
+    "nuevos": 0.2952,
+    "historial": 0.2585
+   }
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "experimento": "flaml_extra_tree",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "FLAML extra_tree, busqueda en <=202606: {'n_estimators': 22, 'max_features': 0.682456124864499, 'max_leaves': 59, 'criterion': 'entropy', 'FLAML_sample_size': 50200}"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2679,
+    "nuevos": 0.3024,
+    "historial": 0.2627
+   },
+   "202608": {
+    "global": 0.2586,
+    "nuevos": 0.2682,
+    "historial": 0.2534
+   },
+   "202609": {
+    "global": 0.2324,
+    "nuevos": 0.216,
+    "historial": 0.2344
+   },
+   "202610": {
+    "global": 0.2619,
+    "nuevos": 0.2924,
+    "historial": 0.2508
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.2565,
+    "nuevos": 0.3137,
+    "historial": 0.2484
+   },
+   "202608": {
+    "global": 0.2545,
+    "nuevos": 0.2647,
+    "historial": 0.2476
+   },
+   "202609": {
+    "global": 0.2313,
+    "nuevos": 0.2046,
+    "historial": 0.2337
+   },
+   "202610": {
+    "global": 0.2604,
+    "nuevos": 0.2974,
+    "historial": 0.248
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2694,
+    "nuevos": 0.3177,
+    "historial": 0.2619
+   },
+   "202608": {
+    "global": 0.2581,
+    "nuevos": 0.2922,
+    "historial": 0.2454
+   },
+   "202609": {
+    "global": 0.2325,
+    "nuevos": 0.2133,
+    "historial": 0.2337
+   },
+   "202610": {
+    "global": 0.2636,
+    "nuevos": 0.2819,
+    "historial": 0.2563
+   }
+  }
+ }
+}

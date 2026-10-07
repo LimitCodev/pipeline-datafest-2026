@@ -1,0 +1,85 @@
+{
+ "experimento": "enc_te",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "target encoding temporal (meses < t) de 4 cat + 4 combos, suave 50"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2677,
+    "nuevos": 0.3323,
+    "historial": 0.2579
+   },
+   "202608": {
+    "global": 0.2644,
+    "nuevos": 0.2533,
+    "historial": 0.2614
+   },
+   "202609": {
+    "global": 0.2424,
+    "nuevos": 0.2294,
+    "historial": 0.2404
+   },
+   "202610": {
+    "global": 0.2675,
+    "nuevos": 0.297,
+    "historial": 0.2572
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.2667,
+    "nuevos": 0.3234,
+    "historial": 0.258
+   },
+   "202608": {
+    "global": 0.2638,
+    "nuevos": 0.2559,
+    "historial": 0.2598
+   },
+   "202609": {
+    "global": 0.2385,
+    "nuevos": 0.2229,
+    "historial": 0.2372
+   },
+   "202610": {
+    "global": 0.2662,
+    "nuevos": 0.2971,
+    "historial": 0.2557
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2664,
+    "nuevos": 0.3277,
+    "historial": 0.257
+   },
+   "202608": {
+    "global": 0.2662,
+    "nuevos": 0.2587,
+    "historial": 0.262
+   },
+   "202609": {
+    "global": 0.2438,
+    "nuevos": 0.2273,
+    "historial": 0.2426
+   },
+   "202610": {
+    "global": 0.2675,
+    "nuevos": 0.2984,
+    "historial": 0.2568
+   }
+  }
+ }
+}

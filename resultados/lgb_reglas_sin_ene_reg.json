@@ -1,0 +1,85 @@
+{
+ "experimento": "lgb_reglas_sin_ene_reg",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "variante reglas_sin_ene_reg de src/variantes.py"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2714,
+    "nuevos": 0.3166,
+    "historial": 0.2642
+   },
+   "202608": {
+    "global": 0.2693,
+    "nuevos": 0.2507,
+    "historial": 0.269
+   },
+   "202609": {
+    "global": 0.2513,
+    "nuevos": 0.2472,
+    "historial": 0.2483
+   },
+   "202610": {
+    "global": 0.2652,
+    "nuevos": 0.2987,
+    "historial": 0.2536
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.268,
+    "nuevos": 0.3229,
+    "historial": 0.2597
+   },
+   "202608": {
+    "global": 0.2701,
+    "nuevos": 0.2524,
+    "historial": 0.2696
+   },
+   "202609": {
+    "global": 0.2515,
+    "nuevos": 0.2531,
+    "historial": 0.2477
+   },
+   "202610": {
+    "global": 0.2663,
+    "nuevos": 0.3036,
+    "historial": 0.2538
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2673,
+    "nuevos": 0.3102,
+    "historial": 0.2604
+   },
+   "202608": {
+    "global": 0.2691,
+    "nuevos": 0.2539,
+    "historial": 0.2679
+   },
+   "202609": {
+    "global": 0.2491,
+    "nuevos": 0.2535,
+    "historial": 0.2448
+   },
+   "202610": {
+    "global": 0.2643,
+    "nuevos": 0.2997,
+    "historial": 0.2524
+   }
+  }
+ }
+}

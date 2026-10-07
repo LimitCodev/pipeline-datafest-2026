@@ -1,0 +1,85 @@
+{
+ "experimento": "enc_ultima",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "solo ultima fila por cliente en train"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.1513,
+    "nuevos": 0.3051,
+    "historial": 0.14
+   },
+   "202608": {
+    "global": 0.1558,
+    "nuevos": 0.2382,
+    "historial": 0.1383
+   },
+   "202609": {
+    "global": 0.1659,
+    "nuevos": 0.185,
+    "historial": 0.1547
+   },
+   "202610": {
+    "global": 0.1659,
+    "nuevos": 0.2634,
+    "historial": 0.1589
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.1515,
+    "nuevos": 0.3056,
+    "historial": 0.1401
+   },
+   "202608": {
+    "global": 0.1566,
+    "nuevos": 0.2394,
+    "historial": 0.1396
+   },
+   "202609": {
+    "global": 0.1647,
+    "nuevos": 0.1794,
+    "historial": 0.1539
+   },
+   "202610": {
+    "global": 0.1646,
+    "nuevos": 0.2621,
+    "historial": 0.1582
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.1515,
+    "nuevos": 0.3115,
+    "historial": 0.1399
+   },
+   "202608": {
+    "global": 0.1569,
+    "nuevos": 0.2381,
+    "historial": 0.1399
+   },
+   "202609": {
+    "global": 0.1639,
+    "nuevos": 0.1798,
+    "historial": 0.153
+   },
+   "202610": {
+    "global": 0.1642,
+    "nuevos": 0.2632,
+    "historial": 0.1573
+   }
+  }
+ }
+}

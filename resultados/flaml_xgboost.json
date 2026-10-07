@@ -1,0 +1,85 @@
+{
+ "experimento": "flaml_xgboost",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "FLAML xgboost, busqueda en <=202606: {'n_estimators': 19, 'max_leaves': 17, 'min_child_weight': 2.3974150962041336, 'learning_rate': 0.09781003442692288, 'subsample': 0.8585994191715466, 'colsample_bylevel': 0.9426142438135892, 'colsample_bytree': 1.0, 'reg_alpha': 0.021742108985278612, 'reg_lambda': 9.504416562419596, 'FLAML_sample_size': 50200}"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2608,
+    "nuevos": 0.2985,
+    "historial": 0.2551
+   },
+   "202608": {
+    "global": 0.2501,
+    "nuevos": 0.254,
+    "historial": 0.2436
+   },
+   "202609": {
+    "global": 0.2417,
+    "nuevos": 0.2316,
+    "historial": 0.2407
+   },
+   "202610": {
+    "global": 0.2606,
+    "nuevos": 0.3033,
+    "historial": 0.2466
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.266,
+    "nuevos": 0.303,
+    "historial": 0.26
+   },
+   "202608": {
+    "global": 0.2477,
+    "nuevos": 0.2572,
+    "historial": 0.2397
+   },
+   "202609": {
+    "global": 0.251,
+    "nuevos": 0.2241,
+    "historial": 0.2537
+   },
+   "202610": {
+    "global": 0.2598,
+    "nuevos": 0.2941,
+    "historial": 0.248
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2736,
+    "nuevos": 0.3097,
+    "historial": 0.2676
+   },
+   "202608": {
+    "global": 0.2528,
+    "nuevos": 0.2518,
+    "historial": 0.2476
+   },
+   "202609": {
+    "global": 0.239,
+    "nuevos": 0.2278,
+    "historial": 0.2382
+   },
+   "202610": {
+    "global": 0.266,
+    "nuevos": 0.3078,
+    "historial": 0.2519
+   }
+  }
+ }
+}

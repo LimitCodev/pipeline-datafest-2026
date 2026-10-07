@@ -1,0 +1,37 @@
+{
+ "experimento": "flaml_extra_tree",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "FLAML extra_tree, busqueda en <=202606: {'n_estimators': 22, 'max_features': 0.682456124864499, 'max_leaves': 59, 'criterion': 'entropy', 'FLAML_sample_size': 50200}"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2341,
+    "nuevos": 0.1944,
+    "historial": 0.2345
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2396,
+    "nuevos": 0.1877,
+    "historial": 0.2422
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.23,
+    "nuevos": 0.1867,
+    "historial": 0.2307
+   }
+  }
+ }
+}

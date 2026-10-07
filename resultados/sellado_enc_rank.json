@@ -1,0 +1,37 @@
+{
+ "experimento": "enc_rank",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "LGBMRanker rank_xendcg agrupado por mes"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2124,
+    "nuevos": 0.1484,
+    "historial": 0.2142
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2116,
+    "nuevos": 0.1498,
+    "historial": 0.2132
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.2127,
+    "nuevos": 0.1508,
+    "historial": 0.2143
+   }
+  }
+ }
+}

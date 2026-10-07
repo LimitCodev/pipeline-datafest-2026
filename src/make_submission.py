@@ -76,7 +76,7 @@ def main() -> None:
 
     out = pd.DataFrame({C.ID: test[C.ID].values, "prediccion": p})
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)
-    out.to_csv(args.out, index=False)
+    out.to_csv(args.out, index=False, lineterminator="\r\n")  # mismo formato que sample_submission.csv (CRLF)
     print("Listo:", out.shape, "->", args.out)
     if not (out["prediccion"].between(0, 1).all() and out["prediccion"].notna().all()):
         sys.exit("ERROR: predicciones invalidas")

@@ -1,0 +1,94 @@
+{
+ "experimento": "reglas_reg",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "n_estimators": 1000,
+  "learning_rate": 0.01,
+  "num_leaves": 7,
+  "subsample": 0.8,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.5,
+  "n_jobs": 4,
+  "verbose": -1,
+  "min_child_samples": 300,
+  "reg_lambda": 10
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2654,
+    "nuevos": 0.3074,
+    "historial": 0.2595
+   },
+   "202608": {
+    "global": 0.2699,
+    "nuevos": 0.259,
+    "historial": 0.2709
+   },
+   "202609": {
+    "global": 0.2469,
+    "nuevos": 0.2475,
+    "historial": 0.2459
+   },
+   "202610": {
+    "global": 0.2667,
+    "nuevos": 0.3079,
+    "historial": 0.2525
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.2684,
+    "nuevos": 0.3211,
+    "historial": 0.2614
+   },
+   "202608": {
+    "global": 0.2687,
+    "nuevos": 0.2575,
+    "historial": 0.2695
+   },
+   "202609": {
+    "global": 0.2461,
+    "nuevos": 0.2519,
+    "historial": 0.2443
+   },
+   "202610": {
+    "global": 0.2689,
+    "nuevos": 0.3063,
+    "historial": 0.256
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2618,
+    "nuevos": 0.3107,
+    "historial": 0.2546
+   },
+   "202608": {
+    "global": 0.2677,
+    "nuevos": 0.2578,
+    "historial": 0.268
+   },
+   "202609": {
+    "global": 0.2459,
+    "nuevos": 0.2531,
+    "historial": 0.2442
+   },
+   "202610": {
+    "global": 0.267,
+    "nuevos": 0.3052,
+    "historial": 0.2538
+   }
+  }
+ }
+}

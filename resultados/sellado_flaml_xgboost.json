@@ -1,0 +1,37 @@
+{
+ "experimento": "flaml_xgboost",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "FLAML xgboost, busqueda en <=202606: {'n_estimators': 19, 'max_leaves': 17, 'min_child_weight': 2.3974150962041336, 'learning_rate': 0.09781003442692288, 'subsample': 0.8585994191715466, 'colsample_bylevel': 0.9426142438135892, 'colsample_bytree': 1.0, 'reg_alpha': 0.021742108985278612, 'reg_lambda': 9.504416562419596, 'FLAML_sample_size': 50200}"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2393,
+    "nuevos": 0.2316,
+    "historial": 0.2368
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2419,
+    "nuevos": 0.2018,
+    "historial": 0.2426
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.2422,
+    "nuevos": 0.2411,
+    "historial": 0.2387
+   }
+  }
+ }
+}

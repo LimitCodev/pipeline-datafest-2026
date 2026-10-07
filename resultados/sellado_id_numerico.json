@@ -1,0 +1,37 @@
+{
+ "experimento": "id_numerico",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "id_cliente como numero"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2331,
+    "nuevos": 0.2044,
+    "historial": 0.2302
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2344,
+    "nuevos": 0.1964,
+    "historial": 0.2327
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.2311,
+    "nuevos": 0.1958,
+    "historial": 0.229
+   }
+  }
+ }
+}

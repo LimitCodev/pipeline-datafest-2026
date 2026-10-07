@@ -1,0 +1,18 @@
+fecha,nombre,gini_sel,delta_sel,delta_sel_sd,mejora_folds,gini_sellado,delta_sellado,veredicto,segundos,nota
+2026-10-07,lgb_limpio_reg,0.2607,0.0,0.0,0/4,0.2361,0.0,RUIDO,33,variante limpio_reg de src/variantes.py
+2026-10-07,lgb_reglas_sin_ene_reg,0.2636,0.0028,0.0042,3/4,0.2479,0.0118,RUIDO,28,variante reglas_sin_ene_reg de src/variantes.py
+2026-10-07,enc_w_cliente,0.2293,-0.0314,0.013,0/4,0.2095,-0.0266,PEOR,33,peso 1/(n filas del cliente en train): corrige supervivientes
+2026-10-07,enc_ultima,0.1594,-0.1013,0.0116,0/4,0.1637,-0.0724,PEOR,15,solo ultima fila por cliente en train
+2026-10-07,enc_te,0.2601,-0.0006,0.0042,2/4,0.2392,0.0031,RUIDO,338,"target encoding temporal (meses < t) de 4 cat + 4 combos, suave 50"
+2026-10-07,ag_medium,0.2269,-0.0334,0.0277,1/4,0.2093,-0.0268,PEOR,644,"AutoGluon 1.6.3 {'presets': 'medium_quality'}, 240s/fit, 4 cpu, 4GB, sin mes, seed 42"
+2026-10-07,flaml_lgbm,0.2601,-0.0007,0.0085,2/4,0.2369,0.0008,RUIDO,4,"FLAML lgbm, busqueda en <=202606: {'n_estimators': 29, 'num_leaves': 12, 'min_child_samples': 5, 'learning_rate': 0.10319271470030926, 'log_max_bin': 8, 'colsample_bytree': 0.9836879076558822, 'reg_alpha': 0.35682269345561174, 'reg_lambda': 0.003326463857537651, 'FLAML_sample_size': 50200}"
+2026-10-07,flaml_xgboost,0.2558,-0.005,0.0071,1/4,0.2411,0.005,PEOR,4,"FLAML xgboost, busqueda en <=202606: {'n_estimators': 19, 'max_leaves': 17, 'min_child_weight': 2.3974150962041336, 'learning_rate': 0.09781003442692288, 'subsample': 0.8585994191715466, 'colsample_bylevel': 0.9426142438135892, 'colsample_bytree': 1.0, 'reg_alpha': 0.021742108985278612, 'reg_lambda': 9.504416562419596, 'FLAML_sample_size': 50200}"
+2026-10-07,flaml_extra_tree,0.2539,-0.0068,0.0072,1/4,0.2346,-0.0015,PEOR,12,"FLAML extra_tree, busqueda en <=202606: {'n_estimators': 22, 'max_features': 0.682456124864499, 'max_leaves': 59, 'criterion': 'entropy', 'FLAML_sample_size': 50200}"
+2026-10-07,ag_temporal,0.2581,-0.0023,0.005,2/4,0.2255,-0.0106,RUIDO,487,"AutoGluon 1.6.3 {'presets': 'medium_quality', 'num_bag_folds': 0, '_temporal': True}, 240s/fit, 4 cpu, 4GB, sin mes, seed 42"
+2026-10-07,enc_rank,0.2469,-0.0139,0.0066,0/4,0.2122,-0.0239,PEOR,30,LGBMRanker rank_xendcg agrupado por mes
+2026-10-07,enc_mono,0.2611,0.0004,0.0014,1/4,0.2346,-0.0015,RUIDO,25,"monotone numero_productos +, dias_ultima_transaccion -"
+2026-10-07,enc_ord_ratios,0.2611,0.0004,0.0012,3/4,0.2338,-0.0023,RUIDO,26,"banda_riesgo ordinal + saldo/ingresos, deuda, saldo/producto"
+2026-10-07,enc_entrada,0.2616,0.0009,0.0019,3/4,0.2357,-0.0004,RUIDO,25,mes de entrada del cliente + flag entrada censurada (enero)
+2026-10-07,enc_bag,0.2611,0.0003,0.0009,2/4,0.2357,-0.0004,RUIDO,120,"bagging 5 LGBM (semilla distinta, subsample 0.7)"
+2026-10-07,id_numerico,0.2608,0.0001,0.0023,3/4,0.2329,-0.0032,RUIDO,28,id_cliente como numero
+2026-10-07,id_categoria,0.2583,-0.0024,0.0024,0/4,0.228,-0.0081,RUIDO,26,id_cliente como categoria (memoriza cliente)

@@ -7,6 +7,9 @@ __pycache__/
 .env
 .venv-ag/
 datafest-datos/
-resultados/
+resultados/oof/
 catboost_info/
 *.npz
+# metricas agregadas de las pruebas (sin filas de clientes)
+!resultados/*.csv
+!resultados/autogluon/*.csv

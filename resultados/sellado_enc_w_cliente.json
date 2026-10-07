@@ -1,0 +1,37 @@
+{
+ "experimento": "enc_w_cliente",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "peso 1/(n filas del cliente en train): corrige supervivientes"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2111,
+    "nuevos": 0.2146,
+    "historial": 0.2062
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2079,
+    "nuevos": 0.2032,
+    "historial": 0.2024
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.2094,
+    "nuevos": 0.218,
+    "historial": 0.2039
+   }
+  }
+ }
+}

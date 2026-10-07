@@ -1,0 +1,39 @@
+{
+ "experimento": "ag_medium",
+ "seeds": [
+  42
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "AutoGluon 1.6.3 {'presets': 'medium_quality'}, 240s/fit, 4 cpu, 4GB, sin mes, seed 42"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.215,
+    "nuevos": 0.2737,
+    "historial": 0.2071
+   },
+   "202608": {
+    "global": 0.2657,
+    "nuevos": 0.2944,
+    "historial": 0.2522
+   },
+   "202609": {
+    "global": 0.1862,
+    "nuevos": 0.2536,
+    "historial": 0.1698
+   },
+   "202610": {
+    "global": 0.2408,
+    "nuevos": 0.308,
+    "historial": 0.2265
+   }
+  }
+ }
+}

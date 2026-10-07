@@ -1,0 +1,85 @@
+{
+ "experimento": "enc_entrada",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "mes de entrada del cliente + flag entrada censurada (enero)"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2637,
+    "nuevos": 0.3257,
+    "historial": 0.2551
+   },
+   "202608": {
+    "global": 0.2654,
+    "nuevos": 0.2595,
+    "historial": 0.2613
+   },
+   "202609": {
+    "global": 0.2476,
+    "nuevos": 0.2231,
+    "historial": 0.2484
+   },
+   "202610": {
+    "global": 0.2695,
+    "nuevos": 0.2984,
+    "historial": 0.2588
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.2661,
+    "nuevos": 0.3259,
+    "historial": 0.2578
+   },
+   "202608": {
+    "global": 0.2655,
+    "nuevos": 0.2617,
+    "historial": 0.2609
+   },
+   "202609": {
+    "global": 0.2455,
+    "nuevos": 0.2228,
+    "historial": 0.246
+   },
+   "202610": {
+    "global": 0.2682,
+    "nuevos": 0.2983,
+    "historial": 0.2574
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2664,
+    "nuevos": 0.3216,
+    "historial": 0.2586
+   },
+   "202608": {
+    "global": 0.265,
+    "nuevos": 0.2576,
+    "historial": 0.2614
+   },
+   "202609": {
+    "global": 0.2466,
+    "nuevos": 0.227,
+    "historial": 0.2465
+   },
+   "202610": {
+    "global": 0.2701,
+    "nuevos": 0.301,
+    "historial": 0.2589
+   }
+  }
+ }
+}

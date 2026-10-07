@@ -1,0 +1,60 @@
+{
+  "lgbm": {
+    "gini_val_202606": 0.2681920714285715,
+    "config": {
+      "n_estimators": 29,
+      "num_leaves": 12,
+      "min_child_samples": 5,
+      "learning_rate": 0.10319271470030926,
+      "log_max_bin": 8,
+      "colsample_bytree": 0.9836879076558822,
+      "reg_alpha": 0.35682269345561174,
+      "reg_lambda": 0.003326463857537651,
+      "FLAML_sample_size": 50200
+    }
+  },
+  "xgboost": {
+    "gini_val_202606": 0.2653914999999998,
+    "config": {
+      "n_estimators": 19,
+      "max_leaves": 17,
+      "min_child_weight": 2.3974150962041336,
+      "learning_rate": 0.09781003442692288,
+      "subsample": 0.8585994191715466,
+      "colsample_bylevel": 0.9426142438135892,
+      "colsample_bytree": 1.0,
+      "reg_alpha": 0.021742108985278612,
+      "reg_lambda": 9.504416562419596,
+      "FLAML_sample_size": 50200
+    }
+  },
+  "catboost": {
+    "gini_val_202606": 0.2523588571428572,
+    "config": {
+      "early_stopping_rounds": 12,
+      "learning_rate": 0.06343623331775625,
+      "n_estimators": 8192,
+      "FLAML_sample_size": 50200
+    }
+  },
+  "rf": {
+    "gini_val_202606": 0.2517080714285713,
+    "config": {
+      "n_estimators": 80,
+      "max_features": 0.33466365223642325,
+      "max_leaves": 13,
+      "criterion": "entropy",
+      "FLAML_sample_size": 50200
+    }
+  },
+  "extra_tree": {
+    "gini_val_202606": 0.2565265000000001,
+    "config": {
+      "n_estimators": 22,
+      "max_features": 0.682456124864499,
+      "max_leaves": 59,
+      "criterion": "entropy",
+      "FLAML_sample_size": 50200
+    }
+  }
+}

@@ -1,0 +1,37 @@
+{
+ "experimento": "enc_te",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "target encoding temporal (meses < t) de 4 cat + 4 combos, suave 50"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2399,
+    "nuevos": 0.2182,
+    "historial": 0.238
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2379,
+    "nuevos": 0.2104,
+    "historial": 0.2363
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.2399,
+    "nuevos": 0.2138,
+    "historial": 0.2382
+   }
+  }
+ }
+}

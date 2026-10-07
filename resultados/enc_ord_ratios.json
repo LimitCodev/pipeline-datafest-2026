@@ -1,0 +1,85 @@
+{
+ "experimento": "enc_ord_ratios",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "banda_riesgo ordinal + saldo/ingresos, deuda, saldo/producto"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2625,
+    "nuevos": 0.314,
+    "historial": 0.2555
+   },
+   "202608": {
+    "global": 0.2626,
+    "nuevos": 0.2581,
+    "historial": 0.2594
+   },
+   "202609": {
+    "global": 0.2479,
+    "nuevos": 0.2278,
+    "historial": 0.249
+   },
+   "202610": {
+    "global": 0.2697,
+    "nuevos": 0.3004,
+    "historial": 0.2582
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.264,
+    "nuevos": 0.3127,
+    "historial": 0.2574
+   },
+   "202608": {
+    "global": 0.2646,
+    "nuevos": 0.2612,
+    "historial": 0.2611
+   },
+   "202609": {
+    "global": 0.2491,
+    "nuevos": 0.2267,
+    "historial": 0.2508
+   },
+   "202610": {
+    "global": 0.2688,
+    "nuevos": 0.297,
+    "historial": 0.258
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2626,
+    "nuevos": 0.3197,
+    "historial": 0.2552
+   },
+   "202608": {
+    "global": 0.2646,
+    "nuevos": 0.2576,
+    "historial": 0.2621
+   },
+   "202609": {
+    "global": 0.2496,
+    "nuevos": 0.2311,
+    "historial": 0.2505
+   },
+   "202610": {
+    "global": 0.2675,
+    "nuevos": 0.3005,
+    "historial": 0.2554
+   }
+  }
+ }
+}

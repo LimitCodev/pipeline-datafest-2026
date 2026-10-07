@@ -1,0 +1,85 @@
+{
+ "experimento": "enc_bag",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "bagging 5 LGBM (semilla distinta, subsample 0.7)"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2638,
+    "nuevos": 0.3257,
+    "historial": 0.2557
+   },
+   "202608": {
+    "global": 0.2622,
+    "nuevos": 0.2571,
+    "historial": 0.2593
+   },
+   "202609": {
+    "global": 0.2485,
+    "nuevos": 0.2319,
+    "historial": 0.249
+   },
+   "202610": {
+    "global": 0.2688,
+    "nuevos": 0.2982,
+    "historial": 0.2577
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.2639,
+    "nuevos": 0.3251,
+    "historial": 0.2559
+   },
+   "202608": {
+    "global": 0.2628,
+    "nuevos": 0.2554,
+    "historial": 0.2603
+   },
+   "202609": {
+    "global": 0.2495,
+    "nuevos": 0.2298,
+    "historial": 0.2506
+   },
+   "202610": {
+    "global": 0.269,
+    "nuevos": 0.2983,
+    "historial": 0.258
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2636,
+    "nuevos": 0.324,
+    "historial": 0.2557
+   },
+   "202608": {
+    "global": 0.2632,
+    "nuevos": 0.2573,
+    "historial": 0.2604
+   },
+   "202609": {
+    "global": 0.2487,
+    "nuevos": 0.2289,
+    "historial": 0.2498
+   },
+   "202610": {
+    "global": 0.2687,
+    "nuevos": 0.2993,
+    "historial": 0.2575
+   }
+  }
+ }
+}

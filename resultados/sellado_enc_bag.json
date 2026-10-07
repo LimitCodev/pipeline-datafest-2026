@@ -1,0 +1,37 @@
+{
+ "experimento": "enc_bag",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "bagging 5 LGBM (semilla distinta, subsample 0.7)"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2355,
+    "nuevos": 0.198,
+    "historial": 0.2362
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2358,
+    "nuevos": 0.1951,
+    "historial": 0.2369
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.2357,
+    "nuevos": 0.1976,
+    "historial": 0.2365
+   }
+  }
+ }
+}

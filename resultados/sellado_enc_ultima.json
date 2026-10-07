@@ -1,0 +1,37 @@
+{
+ "experimento": "enc_ultima",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "solo ultima fila por cliente en train"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.163,
+    "nuevos": 0.1851,
+    "historial": 0.1499
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.1647,
+    "nuevos": 0.1868,
+    "historial": 0.1515
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.1634,
+    "nuevos": 0.1814,
+    "historial": 0.1503
+   }
+  }
+ }
+}

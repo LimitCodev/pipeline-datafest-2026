@@ -1,0 +1,85 @@
+{
+ "experimento": "id_numerico",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202607,
+  202608,
+  202609,
+  202610
+ ],
+ "params": {
+  "nota": "id_cliente como numero"
+ },
+ "resultados": {
+  "42": {
+   "202607": {
+    "global": 0.2646,
+    "nuevos": 0.3259,
+    "historial": 0.2559
+   },
+   "202608": {
+    "global": 0.2631,
+    "nuevos": 0.2584,
+    "historial": 0.2584
+   },
+   "202609": {
+    "global": 0.2462,
+    "nuevos": 0.2217,
+    "historial": 0.2468
+   },
+   "202610": {
+    "global": 0.2692,
+    "nuevos": 0.2973,
+    "historial": 0.2591
+   }
+  },
+  "43": {
+   "202607": {
+    "global": 0.2653,
+    "nuevos": 0.318,
+    "historial": 0.2575
+   },
+   "202608": {
+    "global": 0.2649,
+    "nuevos": 0.2591,
+    "historial": 0.2604
+   },
+   "202609": {
+    "global": 0.2432,
+    "nuevos": 0.2249,
+    "historial": 0.2426
+   },
+   "202610": {
+    "global": 0.2697,
+    "nuevos": 0.2985,
+    "historial": 0.2596
+   }
+  },
+  "44": {
+   "202607": {
+    "global": 0.2642,
+    "nuevos": 0.32,
+    "historial": 0.2562
+   },
+   "202608": {
+    "global": 0.2649,
+    "nuevos": 0.2593,
+    "historial": 0.2603
+   },
+   "202609": {
+    "global": 0.2448,
+    "nuevos": 0.2239,
+    "historial": 0.2448
+   },
+   "202610": {
+    "global": 0.27,
+    "nuevos": 0.3017,
+    "historial": 0.2592
+   }
+  }
+ }
+}

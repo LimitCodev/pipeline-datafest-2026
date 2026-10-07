@@ -1,0 +1,21 @@
+{
+ "experimento": "ag_medium",
+ "seeds": [
+  42
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "AutoGluon 1.6.3 {'presets': 'medium_quality'}, 240s/fit, 4 cpu, 4GB, sin mes, seed 42"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2093,
+    "nuevos": 0.1939,
+    "historial": 0.2042
+   }
+  }
+ }
+}

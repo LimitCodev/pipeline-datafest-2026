@@ -1,0 +1,62 @@
+{
+ "experimento": "reglas_sin_ene_reg",
+ "seeds": [
+  42,
+  43,
+  44,
+  45,
+  46
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "n_estimators": 1000,
+  "learning_rate": 0.01,
+  "num_leaves": 7,
+  "subsample": 0.8,
+  "subsample_freq": 1,
+  "colsample_bytree": 0.5,
+  "n_jobs": 4,
+  "verbose": -1,
+  "min_child_samples": 300,
+  "reg_lambda": 10
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2491,
+    "nuevos": 0.2287,
+    "historial": 0.2475
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2457,
+    "nuevos": 0.2358,
+    "historial": 0.2428
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.249,
+    "nuevos": 0.2398,
+    "historial": 0.2461
+   }
+  },
+  "45": {
+   "202611": {
+    "global": 0.2471,
+    "nuevos": 0.2283,
+    "historial": 0.2451
+   }
+  },
+  "46": {
+   "202611": {
+    "global": 0.247,
+    "nuevos": 0.2277,
+    "historial": 0.2451
+   }
+  }
+ }
+}

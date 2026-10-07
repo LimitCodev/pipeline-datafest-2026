@@ -1,0 +1,37 @@
+{
+ "experimento": "enc_entrada",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "mes de entrada del cliente + flag entrada censurada (enero)"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2365,
+    "nuevos": 0.1961,
+    "historial": 0.2362
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2349,
+    "nuevos": 0.2013,
+    "historial": 0.2338
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.2356,
+    "nuevos": 0.2043,
+    "historial": 0.2343
+   }
+  }
+ }
+}

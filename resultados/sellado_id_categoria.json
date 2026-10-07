@@ -1,0 +1,37 @@
+{
+ "experimento": "id_categoria",
+ "seeds": [
+  42,
+  43,
+  44
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "id_cliente como categoria (memoriza cliente)"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2267,
+    "nuevos": 0.1808,
+    "historial": 0.2281
+   }
+  },
+  "43": {
+   "202611": {
+    "global": 0.2296,
+    "nuevos": 0.1847,
+    "historial": 0.231
+   }
+  },
+  "44": {
+   "202611": {
+    "global": 0.2278,
+    "nuevos": 0.184,
+    "historial": 0.229
+   }
+  }
+ }
+}
