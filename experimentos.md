@@ -37,6 +37,8 @@ la validación es temporal (entrena meses < m, valida en m).
 | 2026-10-07 | claude | encuadre: peso 1/filas por cliente / solo última fila / ranking `rank_xendcg` por mes | 0.2293 / 0.1594 / 0.2469 | — | — | PEOR: los supervivientes SÍ son la población evaluada, no repesar. No repetir |
 | 2026-10-07 | claude | features: target encoding temporal / monotonía / ordinal+ratios / mes de entrada / bagging 5 LGBM | 0.2601 / 0.2611 / 0.2611 / 0.2616 / 0.2611 | — | — | todos RUIDO (\|Δ\| ≤ 0.0009). `src/exp_encuadre.py` |
 | 2026-10-07 | claude | `id_cliente` como feature (numérico / categoría) | 0.2608 / 0.2583 | — | — | RUIDO / RUIDO (sellado −0.003 / −0.008): el ID no lleva información de conversión |
+| 2026-10-07 | claude | modelos tabulares 2025–26: RealMLP (pytabkit) solo y mezclado con LGBM final; TabM; TabICL | 0.2237 | — | — | RealMLP PEOR (−0.037), peso óptimo de mezcla = 0 (`src/blend.py`). TabM >15 min/fold en CPU, TabICL >8 GB RAM (OOM): descartados |
+| 2026-10-07 | claude | validación adversarial nov vs dic | — | — | — | AUC 0.523: diciembre casi indistinguible, sin drift que corregir |
 
 Nota: `baseline_ref_sellado.json` = baseline, 5 semillas, fold 202611 (global 0.2256).
 

@@ -1,0 +1,21 @@
+{
+ "experimento": "nn_realmlp",
+ "seeds": [
+  42
+ ],
+ "meses": [
+  202611
+ ],
+ "params": {
+  "nota": "pytabkit RealMLP_TD defaults, CPU 4 hilos"
+ },
+ "resultados": {
+  "42": {
+   "202611": {
+    "global": 0.2268,
+    "nuevos": 0.1688,
+    "historial": 0.2282
+   }
+  }
+ }
+}

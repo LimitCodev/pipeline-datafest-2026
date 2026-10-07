@@ -49,6 +49,9 @@ Mejora sobre la línea base: **+0.016 en validación y +0.022 en noviembre.**
 | Peso por cliente o solo su última fila | 0.2293, 0.1594 | peor |
 | Codificación de categorías con meses previos, monotonía, ratios, bagging | 0.2601–0.2616 | ruido |
 | `id_cliente` como variable | 0.2608, 0.2583 | ruido |
+| RealMLP (red neuronal tabular, `pytabkit`) | 0.2237 | peor; al mezclarlo con LightGBM su peso óptimo es 0 |
+| TabM (red neuronal tabular) | — | descartado: no terminó en 15 min por fold en CPU |
+| TabICL (modelo fundacional tabular) | — | descartado: necesita más de 8 GB de RAM en CPU |
 
 **Conclusión:** cinco familias de modelos y dos herramientas de AutoML se quedan alrededor de 0.26. Ese parece ser el techo de la información que traen los datos.
 
