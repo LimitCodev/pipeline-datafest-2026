@@ -31,11 +31,11 @@ def main() -> None:
     args = ap.parse_args()
 
     spec = resolve(args.variante)
-    base = os.path.basename(args.out)
-    if os.path.exists(args.out) and base in E.PROTEGIDOS:
-        raise SystemExit(f"ERROR: {args.out} es una referencia; usa otro --out.")
-    if os.path.exists(args.out) and not args.force:
-        raise SystemExit(f"ERROR: {args.out} ya existe; usa --force u otro --out.")
+    if args.out and os.path.exists(args.out):
+        if os.path.basename(args.out) in E.PROTEGIDOS:
+            raise SystemExit(f"ERROR: {args.out} es una referencia; usa otro --out.")
+        if not args.force:
+            raise SystemExit(f"ERROR: {args.out} ya existe; usa --force u otro --out.")
     if args.ref and os.path.abspath(args.ref) == os.path.abspath(args.out or ""):
         raise SystemExit("ERROR: --ref y --out no pueden ser el mismo archivo.")
 
@@ -54,7 +54,7 @@ def main() -> None:
 
     if args.out:
         E.guardar(args.out, experimento=args.variante, seeds=args.seeds,
-                  meses=args.folds, params=E.PARAMS_BASE, resultados=res,
+                  meses=args.folds, params={**E.PARAMS_BASE, **(spec.get("params") or {})}, resultados=res,
                   force=args.force)
         print("\nguardado en", args.out)
     print(f"tiempo: {dt:.1f}s  ({len(args.seeds)} semillas x {len(args.folds)} folds)")

@@ -1,6 +1,6 @@
 from pathlib import Path
 
-DATA_DIR = Path.home() / "datafest-datos"
+DATA_DIR = Path(__file__).resolve().parent.parent / "datafest-datos"
 TRAIN = DATA_DIR / "train.csv"
 TEST = DATA_DIR / "test.csv"
 

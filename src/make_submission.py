@@ -23,7 +23,8 @@ def main() -> None:
     ap = argparse.ArgumentParser(description="Submission de diciembre")
     ap.add_argument("--out", required=True, help="ruta del csv a generar")
     ap.add_argument("--variante", default="base")
-    ap.add_argument("--seed", type=int, default=C.SEED)
+    ap.add_argument("--seeds", nargs="+", type=int, default=[C.SEED],
+                    help="promedia las predicciones de varias semillas")
     ap.add_argument("--folds-para-n-estimators", nargs="*", type=int, default=None,
                     help="si se pasa, fija n_estimators con early stopping temporal "
                          "en esos meses y luego reentrena con todo ene-nov")
@@ -40,12 +41,13 @@ def main() -> None:
     df = load_all()
     df2 = spec["transformar"](df.copy()) if spec.get("transformar") else E.add_features(df.copy())
     train = df2[df2["_origen"] == "train"]
+    if spec.get("filtro_train"):
+        train = train[spec["filtro_train"](train)]
     test = df2[df2["_origen"] == "test"]
     feats = E.columnas_features(df2)
     params = dict(E.PARAMS_BASE)
     if spec.get("params"):
         params.update(spec["params"])
-    params["random_state"] = args.seed
 
     n_est = params["n_estimators"]
     if args.folds_para_n_estimators:
@@ -66,9 +68,11 @@ def main() -> None:
         params.pop("learning_rate", None)
         params["learning_rate"] = 0.03
 
-    model = lgb.LGBMClassifier(**params)
-    model.fit(train[feats], train[C.TARGET])
-    p = model.predict_proba(test[feats])[:, 1]
+    p = 0
+    for s in args.seeds:
+        model = lgb.LGBMClassifier(**{**params, "random_state": s})
+        model.fit(train[feats], train[C.TARGET])
+        p = p + model.predict_proba(test[feats])[:, 1] / len(args.seeds)
 
     out = pd.DataFrame({C.ID: test[C.ID].values, "prediccion": p})
     os.makedirs(os.path.dirname(args.out) or ".", exist_ok=True)

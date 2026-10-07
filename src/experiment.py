@@ -29,7 +29,7 @@ PARAMS_BASE = dict(
     n_estimators=300, learning_rate=0.05, num_leaves=31,
     subsample=0.8, subsample_freq=1, colsample_bytree=0.8,
     random_state=C.SEED,
-    n_jobs=max(1, (os.cpu_count() or 2) - 1),
+    n_jobs=4,  # no saturar la laptop (16 hilos, 13 GB)
     verbose=-1,
 )
 
